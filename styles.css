@@ -149,6 +149,31 @@ header {
 
 /* BUTTON AREA END -------------- */
 
+/* ----------------- ITEMS START */
+
+.item {
+    background: var(--blue);
+    padding: 1.5rem;
+    border-radius: 8px;
+    font-family: var(--font);
+}
+
+.item h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: white;
+
+}
+
+.item p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* ----------------- ITEMS END */
+
 
 /* LOGO STYLES HERE START ----------------- */
 
