@@ -534,9 +534,19 @@ footer a:hover {
         translateY(0);
     }
 }
+
+@keyframes stepUpGraph {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: var(--height);
+    }
+}
+
 /* ADD ANIMATION ON stepUp for 1s ease-in-out forwards */
 .bar {
-    animation: stepUp 1s ease-in-out forwards;
+    animation: stepUpGraph 1s ease-in-out forwards;
 }
 
 
