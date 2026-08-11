@@ -344,7 +344,7 @@ table {
 }
 
 th, td {
-    padding: 0.85rem 1rem;
+    padding: 1.5rem 1rem;
     font-size: 0.95rem;
     border: 1px solid var(--charcoal);
 }
