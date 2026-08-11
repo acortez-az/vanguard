@@ -103,6 +103,42 @@ header {
     font-family: var(--font);
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* NAVIGATION STYLES HERE START ----------------- */
+
+nav h2 {
+    position: absolute;
+    font-family: var(--font);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    padding: 0.5rem 0.75rem;
+}
+
+
+nav a:hover {
+    background-color: #007BFF;
+    color: #000000;
+}
+
+/* NAVIGATION STYLES HERE END ----------------- */
+
 .expertise {
     font-family: var(--font);
 }
