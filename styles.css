@@ -499,7 +499,6 @@ footer a:hover {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
@@ -520,7 +519,7 @@ footer a:hover {
     }
     100% {
         opacity: 1;
-        translateY(0);
+        transform: translateY(0);
     }
 }
 
