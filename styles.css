@@ -171,6 +171,26 @@ header {
 
 /* ----------------- EXPERTISE AREA END */
 
+/* ----------------- SERVICES ARE START */
+.services {
+    padding: 2rem 0 4rem 0;
+}
+
+.services h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: var(--font);
+}
+
+.services-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* ----------------- SERVICES ARE START */
+
 /* ----------------- ITEMS START */
 
 .item {
