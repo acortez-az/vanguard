@@ -282,6 +282,8 @@ nav a:hover {
 
 /* NAVIGATION STYLES HERE END ----------------- */
 
+/* EXPERTISE AREA START ----------------- */
+
 .expertise {
     font-family: var(--font);
 }
@@ -289,6 +291,78 @@ nav a:hover {
 .services h2 {
     font-family: var(--font);
 }
+
+/* EXPERTISE AREA END ----------------- */
+
+/* ----------------- RESULTS AREA START */
+.results {
+    background-color: var(--blue);
+    color: white;
+    padding: 4rem 0;
+}
+
+.results h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    font-family: var(--font);
+}
+
+.results-blurb {
+    font-size: 0.95rem;
+    margin-bottom: 2.5rem;
+    font-family: var(--font);
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.results-col h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-family: var(--font);
+}
+
+/* ----------------- RESULTS AREA END */
+
+/* ----------------- THIS IS THE TABLE!! AREA START */
+
+.table-container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+    font-family: var(--font);
+}
+
+th, td {
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+    border: 1px solid var(--charcoal);
+}
+
+th {
+    background-color: black;
+    font-weight: bold;
+}
+
+tbody tr {
+    background-color: var(--black);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--charcoal);
+}
+
+/* ----------------- TABLE AREA END */
 
 /* ----------------- FOOTER AREA START */
 footer {
