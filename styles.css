@@ -217,6 +217,11 @@ header {
     padding: 1.5rem;
     border-radius: 8px;
     font-family: var(--font);
+    transition: transform 0.8s ease-out;
+}
+
+.item:hover {
+    transform: translateY(-8px);
 }
 
 .item h3 {
