@@ -134,6 +134,7 @@ header {
     font-weight: bold;
     margin-bottom: 1rem;
     font-family: var(--font);
+    animation: stepUp 0.9s ease-out forwards;
 }
 
 .header-content p {
@@ -174,6 +175,7 @@ header {
     font-weight: bold;
     margin-bottom: 1rem;
     font-family: var(--font);
+    animation: stepUp 0.9s ease-out forwards;
 }
 
 .expertise p {
@@ -195,6 +197,7 @@ header {
     font-weight: bold;
     margin-bottom: 2rem;
     font-family: var(--font);
+    animation: stepUp 0.9s ease-out forwards;
 }
 
 .services-grid {
@@ -219,6 +222,7 @@ header {
     font-weight: bold;
     margin-bottom: 0.75rem;
     color: white;
+    animation: stepUp 0.9s ease-out forwards;
 
 }
 
@@ -264,6 +268,7 @@ h1.logo a {
 nav h2 {
     position: absolute;
     font-family: var(--font);
+    animation: stepUp 0.9s ease-out forwards;
 }
 
 nav ul {
@@ -296,6 +301,7 @@ nav a:hover {
 
 .services h2 {
     font-family: var(--font);
+    animation: stepUp 0.9s ease-out forwards;
 }
 
 /* EXPERTISE AREA END ----------------- */
@@ -312,6 +318,7 @@ nav a:hover {
     font-weight: bold;
     margin-bottom: 0.75rem;
     font-family: var(--font);
+    animation: stepUp 0.9s ease-out forwards;
 }
 
 .results-blurb {
@@ -331,6 +338,7 @@ nav a:hover {
     font-weight: bold;
     margin-bottom: 1.5rem;
     font-family: var(--font);
+    animation: stepUp 0.9s ease-out forwards;
 }
 
 /* ----------------- RESULTS AREA END */
@@ -384,6 +392,7 @@ tbody tr:nth-child(even) {
     font-weight: bold;
     margin-bottom: 0.75rem;
     font-family: var(--font);
+    animation: stepUp 0.9s ease-out forwards;
 }
 
 .contact p {
@@ -517,10 +526,12 @@ footer a:hover {
 }
 @keyframes stepUp {
     0% {
-        height: 0;
+        opacity: 0;
+        transform: translateY(-15px);
     }
     100% {
-        height: var(--height);
+        opacity: 1;
+        translateY(0);
     }
 }
 /* ADD ANIMATION ON stepUp for 1s ease-in-out forwards */
