@@ -95,6 +95,25 @@ table {
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
 
 }
+
+/* MY OWN CSS STUFF AREA START */
+header {
+    background-color: var(--black);
+    border-bottom: 10px solid #007BFF;
+    font-family: var(--font);
+}
+
+.expertise {
+    font-family: var(--font);
+}
+
+.services h2 {
+    font-family: var(--font);
+}
+
+
+/* MY OWN CSS STUFF AREA END */
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
