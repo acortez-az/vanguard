@@ -149,6 +149,28 @@ header {
 
 /* BUTTON AREA END -------------- */
 
+/* ----------------- EXPERTISE AREA START */
+.expertise {
+    padding: 4rem 0 2rem 0;
+    font-family: var(--font);
+}
+
+.expertise h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: var(--font);
+}
+
+.expertise p {
+    color: var(--charcoal);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 900px;
+}
+
+/* ----------------- EXPERTISE AREA END */
+
 /* ----------------- ITEMS START */
 
 .item {
