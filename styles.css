@@ -109,6 +109,33 @@ header {
     align-items: center;
 }
 
+/* LOGO STYLES HERE START ----------------- */
+
+h1.logo {
+    position: relative;
+    padding-left: 2rem;
+}
+
+h1.logo::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    background: url('images/vanguard-logo.svg') no-repeat center/contain;
+}
+
+h1.logo a {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+/* LOGO STYLES HERE END ----------------- */
 
 /* NAVIGATION STYLES HERE START ----------------- */
 
